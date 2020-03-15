@@ -607,7 +607,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: The path takes at least 60 seconds to complete. Not many have the patience
-    and give up before the end. Don't watch th clock or you will stray as well.
+    and give up before the end. Don't watch the clock or you will stray as well.
 --- !u!222 &1851016407
 CanvasRenderer:
   m_ObjectHideFlags: 0

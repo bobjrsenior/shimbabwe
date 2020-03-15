@@ -4,14 +4,21 @@ using UnityEngine;
 
 public class Enemy : Player
 {
+    public AudioClip[] audioSources;
     public Transform player;
     public float maxVisibility = 10.0f;
     public GameObject deathFlag;
+
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     public virtual void Start()
     {
         base.Start();
+
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = audioSources[Random.Range(0, audioSources.Length)];
+        audioSource.Play();
 
         movementSpeed *= Random.Range(0.95f, 1.05f);
 

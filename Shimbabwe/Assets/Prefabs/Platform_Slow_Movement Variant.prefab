@@ -36,22 +36,32 @@ PrefabInstance:
     - target: {fileID: 7506651348474690802, guid: 414f98704284bf742b402de02890e3f2,
         type: 3}
       propertyPath: m_Name
-      value: Platform_Slow_Movement
+      value: Platform_Slow_Movement Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7506651348474690802, guid: 414f98704284bf742b402de02890e3f2,
         type: 3}
       propertyPath: m_TagString
       value: Terrain_Slow_Movement
       objectReference: {fileID: 0}
+    - target: {fileID: 7506651348474690803, guid: 414f98704284bf742b402de02890e3f2,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.690979
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506651348474690803, guid: 414f98704284bf742b402de02890e3f2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7506651348474690812, guid: 414f98704284bf742b402de02890e3f2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 88.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7506651348474690812, guid: 414f98704284bf742b402de02890e3f2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7506651348474690812, guid: 414f98704284bf742b402de02890e3f2,
         type: 3}

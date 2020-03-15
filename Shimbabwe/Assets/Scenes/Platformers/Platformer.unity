@@ -408,11 +408,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1797361380072211680, guid: e9c915005a98abb4eafc9e4ebc27579e,
-        type: 3}
-      propertyPath: orthographic size
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 1797361380616445888, guid: e9c915005a98abb4eafc9e4ebc27579e,
         type: 3}
       propertyPath: playerCamera
@@ -427,11 +422,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1797361380616445892, guid: e9c915005a98abb4eafc9e4ebc27579e,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1797361380616445894, guid: e9c915005a98abb4eafc9e4ebc27579e,
         type: 3}
@@ -906,21 +896,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Platform_Slow_Movement
-      objectReference: {fileID: 0}
-    - target: {fileID: 5380683576115677215, guid: e72ebb9db4a8a2445a6cdc54a78291b0,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.690979
-      objectReference: {fileID: 0}
-    - target: {fileID: 5380683576115677215, guid: e72ebb9db4a8a2445a6cdc54a78291b0,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5380683576115677215, guid: e72ebb9db4a8a2445a6cdc54a78291b0,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e72ebb9db4a8a2445a6cdc54a78291b0, type: 3}

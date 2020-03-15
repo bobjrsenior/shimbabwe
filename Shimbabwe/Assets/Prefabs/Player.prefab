@@ -59,7 +59,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 1797361380616445893}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -180,10 +180,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043372b21d2835740b50c259ff57a34d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 0}
+  spawnPointVec3: {x: 0, y: 0, z: 0}
+  playerCamera: {fileID: 1797361380072211687}
   jumpForce: 300
   movementSpeed: 5
   canJump: 0
-  rigidbody2D: {fileID: 0}
+  deathCount: 0
+  enemyPrefab: {fileID: 7794941509441381073, guid: 1704a85ce7bc7b343b7d88a316ad2a89,
+    type: 3}
 --- !u!50 &1797361380616445892
 Rigidbody2D:
   serializedVersion: 4
@@ -204,7 +209,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1797361380616445893
 BoxCollider2D:
   m_ObjectHideFlags: 0
